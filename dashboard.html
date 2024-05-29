@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Dashboard</h2>
+        <nav>
+            <ul>
+                <li><a href="#dataPemerintahDesa">Data Pemerintah Desa</a></li>
+                <li><a href="#dataBPD">Data BPD</a></li>
+            </ul>
+        </nav>
+        <section id="dataPemerintahDesa">
+            <h3>Data Pemerintah Desa</h3>
+            <button onclick="addData('pemerintahDesa')">Tambah Data</button>
+            <div id="pemerintahDesa"></div>
+        </section>
+        <section id="dataBPD">
+            <h3>Data BPD</h3>
+            <button onclick="addData('bpd')">Tambah Data</button>
+            <div id="bpd"></div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
